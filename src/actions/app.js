@@ -37,6 +37,7 @@ const loadPage = (page) => (dispatch) => {
     case 'somosmuypobres':
       import('../components/c-somosmuypobres.js');
       break;
+
     default:
       page = 'view404';
       import('../components/my-view404.js');
